@@ -43,7 +43,7 @@ Identity = inverseM * nonSingularSqureM
 U = [3; -5; 4];
 % Use transpose(M) command to conduct the transpose matrix of input
 transposeU = transpose(U)
-% Alternatively ' can also be used to conduct transpose of input matrix.
+% Alternatively .' can also be used to conduct transpose of input matrix.
 V = [1 2; 3 4; 5 6];
 % Matrix multiplication for observed matrix and it's transpose,
 % which conduct a invertable non-singular square matrix
