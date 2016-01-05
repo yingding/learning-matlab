@@ -1,4 +1,4 @@
-% this command clear the variables in the workspace
+% This command clear the variables in the workspace
 % it is something like a clear the cache objects of RAM
 clear
 % this command clear the output in the command window
@@ -25,11 +25,11 @@ M4 = M3*M3
 % As the result, all the value of elements of M3 is squared
 M5 = M3.*M3
 
-% This section peseudo inverse of a matrix is conducted.
-% Peseudo inverse exists only if the observed matrix 
+% This section pseudo inverse of a matrix is conducted.
+% Pseudo inverse exists only if the observed matrix 
 % is a non-singular and square matrix
 nonSingularSqureM = [7 -0.5; -0.5 0.5]
-% This command pinv(M) conduct the peseudo inverse of a matrix
+% This command pinv(M) conduct the pseudo inverse of a matrix
 inverseM = pinv(nonSingularSqureM)
 % To valid the result, the matrix multiplicaton 
 % of the obeserved matrix and its inverse
